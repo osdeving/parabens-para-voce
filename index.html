@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parabéns Garota Derivada</title>
+    <title>Parabéns, Garota Derivada!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1 class="animated-text">Parabéns, Garota Derivada!</h1>
+        <h1 class="math-animation">Parabéns, Garota Derivada!</h1>
+        <p class="equation">d/dx [🎵 Sertanejo + 📚 Matemática] = 🎉 Sucesso!</p>
         <div class="balloons">
-            <div class="balloon" id="balloon1"></div>
-            <div class="balloon" id="balloon2"></div>
-            <div class="balloon" id="balloon3"></div>
-            <div class="balloon" id="balloon4"></div>
+            <svg class="balloon-svg" id="guitar-balloon" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" fill="yellow"></circle>
+                <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="black">🎸</text>
+            </svg>
+            <svg class="balloon-svg" id="note-balloon" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" fill="pink"></circle>
+                <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="black">🎵</text>
+            </svg>
+            <svg class="balloon-svg" id="math-balloon" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" fill="lightblue"></circle>
+                <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="black">∂/∂x</text>
+            </svg>
         </div>
     </div>
 
